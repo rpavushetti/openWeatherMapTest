@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.openweathermap.tests.forecast5.ForecastTests">
+        <methods>
+          <include name="checkCityParamsInResponseJSON"/>
+          <include name="checkBodyMessageWhenUnauthorized"/>
+          <include name="checkFirstWeatherNotEmptyXML"/>
+          <include name="status401WhenUnauthorized"/>
+          <include name="checkResponseContentTypesByCityId"/>
+          <include name="tearDown"/>
+          <include name="checkCityParamsInResponseXML"/>
+          <include name="checkFirstWeatherNotEmptyJSON"/>
+          <include name="status404WhenLatIncorrectByLatLon"/>
+          <include name="countElementsInListOfWeatherXML"/>
+          <include name="status200WhenIdCorrectByCityId"/>
+          <include name="countElementsInListOfWeatherJSON"/>
+          <include name="status200WhenNameCorrectByCityName"/>
+          <include name="checkBodyMessageWhenNameIncorrectByCityName"/>
+          <include name="status200WhenNameCorrectByLatLon"/>
+          <include name="setUp"/>
+          <include name="checkBodyMessageWhenLatIncorrectByLatLon"/>
+          <include name="status404WhenIdIncorrectByCityId"/>
+          <include name="setUpBeforeClass"/>
+          <include name="checkBodyMessageWhenIdIncorrectByCityId"/>
+          <include name="status404WhenNameIncorrectByCityName"/>
+        </methods>
+      </class> <!-- com.openweathermap.tests.forecast5.ForecastTests -->
+      <class name="com.openweathermap.tests.current.WeatherTests">
+        <methods>
+          <include name="status404WhenNameIncorrectByCityName"/>
+          <include name="checkCityParamsInJsonResponseByZip"/>
+          <include name="status200WhenLatLonCorrectByLatLon"/>
+          <include name="setUpBeforeClass"/>
+          <include name="checkResponseContentTypesById"/>
+          <include name="checkBodyMessageWhenNameIncorrectByCityName"/>
+          <include name="checkBodyMessageWhenZipIncorrectByZip"/>
+          <include name="checkCityParamsInXmlResponse"/>
+          <include name="status200WhenNameWithCountyCodeCorrectByCityName"/>
+          <include name="checkCityParamsInJsonResponse"/>
+          <include name="checkWeatherIsNotEmptyInXmlResponse"/>
+          <include name="checkCityParamsInXmlResponseByZip"/>
+          <include name="tearDown"/>
+          <include name="status404WhenIdIncorrectByCityId"/>
+          <include name="checkBodyMessageWhenIdIncorrectByCityId"/>
+          <include name="status404WhenLatIncorrectByLatLon"/>
+          <include name="checkBodyMessageWhenLatIncorrectByLatLon"/>
+          <include name="checkCityNameInHtmlResponse"/>
+          <include name="checkWeatherIsNotEmptyInJsonResponse"/>
+          <include name="status401WhenUnauthorized"/>
+          <include name="setUp"/>
+          <include name="status200WhenNameCorrectByCityName"/>
+          <include name="status200WhenIdCorrectByCityId"/>
+          <include name="status200WhenZipCorrectByZip"/>
+          <include name="status404WhenZipIncorrectByZip"/>
+          <include name="checkBodyMessageWhenUnauthorized"/>
+        </methods>
+      </class> <!-- com.openweathermap.tests.current.WeatherTests -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
